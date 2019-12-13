@@ -1,0 +1,13 @@
+z = 1
+checar x,y
+checar x+z, y+z
+aux = z-1
+checar x, y+aux
+{while aux > 0
+	aux--
+}
+checar x+z, y
+{while z > 0
+	z--
+}
+
